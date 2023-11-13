@@ -4,7 +4,7 @@ const Steps = () => {
     return (
         <div className='bg-gray-200 pb-12'>
             <p className='text-[40px] font-paypal pt-20 pb-10 text-center'>Steps to <span className='text-[#04BD4B]'>Purchase</span> Electricity</p>
-            <div className="flex items-center container justify-center gap-10 mx-auto">
+            <div className="flex items-center container justify-center gap-10 mx-auto flex-wrap">
                 <div className="flex flex-col space-y-2 items-center">
                     <svg width={180} height={240} viewBox="0 0 236 227" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <ellipse cx="118.325" cy="113.5" rx="117.668" ry="113.5" fill="#04BD4B" fillOpacity="0.39" style={{ fill: 'color(display-p3 0.0157 0.7412 0.2941)', fillOpacity: '0.39' }} />
@@ -20,7 +20,7 @@ const Steps = () => {
                     <p className="font-paypal text-xl ">Login to banking app</p>
                 </div>
 
-                <div className='-mt-8'>
+                <div className="hidden md:block -mt-8">
                     <ArrowIcon />
                 </div>
 
@@ -34,7 +34,7 @@ const Steps = () => {
                     <p className="font-paypal text-xl ">Select Accuvend</p>
                 </div>
 
-                <div className='-mt-8'>
+                <div className="hidden md:block -mt-8">
                     <ArrowIcon />
                 </div>
 
@@ -46,7 +46,7 @@ const Steps = () => {
                     <p className="font-paypal text-xl ">Enter meter number</p>
                 </div>
 
-                <div className='-mt-8'>
+                <div className="hidden md:block -mt-8">
                     <ArrowIcon />
                 </div>
 
@@ -65,11 +65,9 @@ const Steps = () => {
                     </svg>
                     <p className="font-paypal text-xl ">Make payment</p>
                 </div>
-
             </div>
         </div>
-
-    )
+    );
 }
 
 
