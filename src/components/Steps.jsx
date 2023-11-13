@@ -17,7 +17,7 @@ const Steps = () => {
                             </clipPath>
                         </defs>
                     </svg>
-                    <p className="text-[28px] font-semibold ">Login to banking app</p>
+                    <p className="font-paypal text-xl ">Login to banking app</p>
                 </div>
 
                 <div className='-mt-8'>
@@ -31,7 +31,7 @@ const Steps = () => {
                         <path d="M61.7446 85.792H172.578M78.3696 74.7641L78.425 74.7031M94.9946 74.7641L95.05 74.7031M111.62 74.7641L111.675 74.7031" stroke="#003213" style={{ stroke: 'color(display-p3 0.0000 0.1958 0.0752)', strokeOpacity: 1 }} strokeWidth="8.3125" strokeLinecap="round" strokeLinejoin="round" />
                         <path d="M173.033 148.773C175.771 150.457 175.604 154.553 172.784 154.868L158.564 156.487L152.18 169.299C150.916 171.837 147.009 170.596 146.361 167.448L139.406 133.555C138.863 130.895 141.252 129.222 143.562 130.646L173.033 148.773Z" stroke="#003213" style={{ stroke: 'color(display-p3 0.0000 0.1958 0.0752)', strokeOpacity: 1 }} strokeWidth="8.3125" />
                     </svg>
-                    <p className="text-[28px] font-semibold ">Select Accuvend</p>
+                    <p className="font-paypal text-xl ">Select Accuvend</p>
                 </div>
 
                 <div className='-mt-8'>
@@ -43,7 +43,7 @@ const Steps = () => {
                         <ellipse cx="117.996" cy="113.5" rx="117.668" ry="113.5" fill="#04BD4B" fillOpacity="0.39" style={{ fill: 'color(display-p3 0.0157 0.7412 0.2941)', fillOpacity: '0.39' }} />
                         <path d="M80.7764 95.625H88.6514M88.6514 95.625H96.5264M88.6514 95.625V132.375M88.6514 132.375H80.7764M88.6514 132.375H96.5264M75.5264 82.5H159.526C162.311 82.5 164.982 83.6062 166.951 85.5754C168.92 87.5445 170.026 90.2152 170.026 93V135C170.026 137.785 168.92 140.455 166.951 142.425C164.982 144.394 162.311 145.5 159.526 145.5H75.5264C72.7416 145.5 70.0709 144.394 68.1017 142.425C66.1326 140.455 65.0264 137.785 65.0264 135V93C65.0264 90.2152 66.1326 87.5445 68.1017 85.5754C70.0709 83.6062 72.7416 82.5 75.5264 82.5Z" stroke="#003213" style={{ stroke: 'color(display-p3 0.0000 0.1958 0.0752)', strokeOpacity: 1 }} strokeWidth="7.875" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                    <p className="text-[28px] font-semibold ">Enter meter number</p>
+                    <p className="font-paypal text-xl ">Enter meter number</p>
                 </div>
 
                 <div className='-mt-8'>
@@ -63,7 +63,7 @@ const Steps = () => {
                             </clipPath>
                         </defs>
                     </svg>
-                    <p className="text-[28px] font-semibold ">Make payment</p>
+                    <p className="font-paypal text-xl ">Make payment</p>
                 </div>
 
             </div>
