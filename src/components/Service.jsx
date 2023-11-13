@@ -9,35 +9,35 @@ import AEDC from '../assets/AEDC.png'
 const Service = () => {
     return (
         <div className='bg-gray-200'>
-            <p className='font-bold text-5xl pt-28 text-center font-[PayPal sans] '>Our service Providers</p>
+            <h1 className='font-bold text-5xl pt-28 text-center font-[PayPal sans] '>Our service Providers</h1>
             {/* <p className='font-bold text-5xl text-white pt-2 text-center '> make paying for electricity easier </p> */}
 
-<div className='flex flex-row text-center justify-center p-24'>
-            <div className='mx-16 bg-white rounded-lg p-4'>
-            <img src={AEDC} className="h-48 w-64  "/>
-            </div>
+            <div className='flex flex-row text-center justify-center p-24'>
+                <div className='mx-16 bg-white rounded-lg p-4'>
+                    <img src={AEDC} className="h-48 w-64  " />
+                </div>
 
-            <div className='mx-16 bg-white rounded-lg p-2'>
-            <img src={baxi} className="h-64 w-64  "/>
-            </div>
-
-
-            <div className='mx-16 bg-white rounded-lg'>
-            <img src={buypower} className="h-64 w-64 "/>
-            </div>
-
-            <div className='mx-16 bg-white rounded-lg p-2'>
-            <img src={ie} className="h-64 w-64 "/>
-            </div>
-
-            <div className='mx-16 bg-white rounded-lg p-2'>
-            <img src={zenith} className="h-64 w-64 "/>
-            </div>
+                <div className='mx-16 bg-white rounded-lg p-2'>
+                    <img src={baxi} className="h-64 w-64  " />
+                </div>
 
 
-           
+                <div className='mx-16 bg-white rounded-lg'>
+                    <img src={buypower} className="h-64 w-64 " />
+                </div>
 
-            {/* <div className='mx-16'>
+                <div className='mx-16 bg-white rounded-lg p-2'>
+                    <img src={ie} className="h-64 w-64 " />
+                </div>
+
+                <div className='mx-16 bg-white rounded-lg p-2'>
+                    <img src={zenith} className="h-64 w-64 " />
+                </div>
+
+
+
+
+                {/* <div className='mx-16'>
             <p className='font-medium text-3xl text-white pt-16 text-[#04BD4B] '>100% Reliable</p>
             <p className='font-medium text-3xl text-white pt-3 '>We ensure that your</p>
             <p className='font-medium text-3xl text-white pt-3 '>meter token is</p>
@@ -69,7 +69,7 @@ const Service = () => {
             </div>  */}
 
             </div>
-          
+
         </div>
 
     )

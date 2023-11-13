@@ -12,7 +12,7 @@ const Provide2 = () => {
                         <p className='font-medium text-3xl  text-[#04BD4B]'>Who We Are</p>
                         <p className='font-medium text-2xl pt-3'>We are a leading service provider in Nigeria dedicated to simplifying and enhancing the <br /> process of paying electricity bills for individuals and businesses. With a deep understanding of <br /> the challenges associated with bill payment and a commitment to financial empowerment,<br /> we aim to become a trusted partner for thousands of clients across the nation.</p>
 
-                        <p className='font-medium text-2xl pt-3 '>Our team is composed of experienced professionals who are passionate about delivering <br />  user-friendly solutions and exceptional customer service. We take pride in our role as a <br />  facilitator of secure and convenient electricity bill payments, empowering our clients to take <br />  control of their energy expenses.</p>
+                        <p className='font-medium text-2xl pt-3 '>Our team is composed of experienced professionals who are passionate about delivering <br />  user-friendly solutions and exceptional customer service. We take pride in our role as a <br />  facilitator of secure and convenient electricity bill payments, empowering our clients to take <br />  control of their energy expenses.</p>
                     </div>
 
                 </div>
@@ -26,7 +26,7 @@ const Provide2 = () => {
                     <div className=''>
                         <p className='font-medium text-3xl text-[#04BD4B] '>What We Do</p>
 
-                        <p className='font-medium text-3xl pt-3 '>We provide comprehensive solutions to <br /> help clients manage and pay their <br /> electricity bills in Nigeria. Our services are <br />designed to simplify the bill payment <br />process, promote financial well-being, and <br /> enhance the overall experience for our <br /> clients.</p>
+                        <p className='font-medium text-3xl pt-3 '>We provide comprehensive solutions to <br /> help clients manage and pay their <br /> electricity bills in Nigeria. Our services are <br />designed to simplify the bill payment <br />process, promote financial well-being, and <br /> enhance the overall experience for our <br /> clients.</p>
                     </div>
                 </div>
 
@@ -38,7 +38,7 @@ const Provide2 = () => {
 
                         <div className=''>
                             <p className='font-medium text-3xl text-[#04BD4B] '>How We Work</p>
-                            <p className='font-medium text-3xl pt-3 '>Our commitment to security, convenience, <br />and client empowerment is at the core of <br />how we operate. By offering a user-<br />friendly platform, multiple payment <br />options, and personalized support, we <br />simplify the process of paying electricity <br />bills.</p>
+                            <p className='font-medium text-3xl pt-3 '>Our commitment to security, convenience, <br />and client empowerment is at the core of <br />how we operate. By offering a user-<br />friendly platform, multiple payment <br />options, and personalized support, we <br />simplify the process of paying electricity {' '}<br />bills.</p>
                         </div>
                     </div>
                 </div>

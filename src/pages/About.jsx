@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar"
 import Hero2 from "../components/Hero2"
 import Provide2 from "../components/Provide2"
-import Service from "../components/Service"
 import Footer from "../components/Footer"
 import Mission from "../components/Mission"
 import Drives from "../components/Drives"

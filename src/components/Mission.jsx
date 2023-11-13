@@ -2,7 +2,7 @@
 const Mission = () => {
     return (
         <div className='bg-[#002E87]'>
-            <p className='font-bold text-5xl text-white pt-28 text-center font-[PayPal sans] '>Our Mission And Vision</p>
+            <h1 className='font-bold text-5xl text-white pt-28 text-center'>Our Mission And Vision</h1>
             <div className='flex justify-between p-24 w-[80%] mx-auto'>
                 <div className=''>
                     <p className='font-medium text-3xl pt-16 text-[#04BD4B] '>Our Mission</p>

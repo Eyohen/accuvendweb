@@ -5,8 +5,13 @@
 @font-face {
     font-family: "Paypal Sans";
     src: url("./fonts/Paypal\ Sans.ttf");
-  }
+}
 
 body {
     font-family: "Paypal Sans", sans-serif;
+}
+
+h1 {
+    font-size: 54px;
+    /* You can add other styles here if needed */
 }
