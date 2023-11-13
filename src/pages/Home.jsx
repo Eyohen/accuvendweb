@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar"
 import Hero from "../components/Hero"
 import Provide from "../components/Provide"
-import Service from "../components/Service"
 import Footer from "../components/Footer"
+import Steps from "../components/Steps"
 
 function Home() {
    
@@ -13,8 +13,8 @@ function Home() {
         <Navbar/>
         <Hero />
         <Provide/>
-        {/* <Steps/> */}
-        <Service/>
+        <Steps />
+        {/* <Service/> */}
         <Footer/>
 
         </div>
