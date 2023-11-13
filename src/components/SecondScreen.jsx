@@ -22,7 +22,6 @@ const SecondScreen = () => {
         console.log('Form data submitted:', formData);
         // You can add further processing or API calls here
     };
-
     return (
         <div className="bg-[#F3F7F8]">
             <div className='flex items-center w-[80%] mx-auto py-[110px]'>
