@@ -6,7 +6,9 @@ export default {
   ],
   theme: {
     extend: {
-    
+        fontFamily: {
+            paypal: ["Paypal Sans", "sans-serif"],
+        }
     },
   },
   plugins: [],
