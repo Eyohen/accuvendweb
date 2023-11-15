@@ -8,6 +8,7 @@ export default {
         extend: {
             fontFamily: {
                 paypal: ["PayPal Sans Big Light Regular", "sans-serif"],
+                big: ["PayPal Sans Big Regular", "sans-serif"],
             },
             fontSize: {
                 'h1': '54px',

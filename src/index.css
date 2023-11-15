@@ -21,6 +21,11 @@
         url("https://db.onlinewebfonts.com/t/d8040e905cf0216b6e1b4e39b28d519a.svg#PayPal Sans Big Light Regular")
             format("svg");
 }
+
+@font-face {
+    font-family: "PayPal Sans Big Regular";
+    src: url("./fonts/PayPalSansBigRegular/PayPalSansBigRegular.ttf");
+}
 body {
     font-family: "Paypal Sans Big Light Regular", sans-serif;
 }
@@ -28,6 +33,6 @@ body {
 h1 {
     font-family: pp-sans-big-light, Helvetica Neue, Arial, sans-serif;
     font-weight: 400;
-    line-height: 1.25;
+    /* line-height: 1.25rem; */
     font-size: 54px;
 }

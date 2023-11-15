@@ -5,19 +5,15 @@ import Footer from "../components/Footer"
 import Steps from "../components/Steps"
 
 function Home() {
-   
-  
     return (
-      <>
-        <div >
-        <Navbar/>
-        <Hero />
-        <Provide/>
-        <Steps />
-        {/* <Service/> */}
-        <Footer/>
-
-        </div>
+        <>
+            <div className="" >
+                <Navbar />
+                <Hero />
+                <Provide />
+                <Steps />
+                <Footer />
+            </div>
         </>
     )
 }
