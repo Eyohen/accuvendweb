@@ -31,23 +31,23 @@ function Home() {
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4 justify-center px-4 md:px-24 pt-[20px] pb-[100px] text-center'>
                         <div className='mx-2 md:mx-0'>
                             <p className='font-medium text-3xl pt-16 text-[#04BD4B]'>100% Reliable</p>
-                            <p className='font-medium text-xl pt-2 '>We ensure that your</p>
-                            <p className='font-medium text-xl pt-2 '>meter token is</p>
-                            <p className='font-medium text-xl pt-2 '>delivered without fail.</p>
+                            <p className='font-medium pt-2 '>We ensure that your</p>
+                            <p className='font-medium pt-2 '>meter token is</p>
+                            <p className='font-medium pt-2 '>delivered without fail.</p>
                         </div>
 
                         <div className='mx-2 md:mx-0'>
                             <p className='font-medium text-3xl pt-16 text-[#04BD4B]'>Easy Access</p>
-                            <p className='font-medium text-xl pt-2 '>We provide instant</p>
-                            <p className='font-medium text-xl pt-2 '>access to your</p>
-                            <p className='font-medium text-xl pt-2 '>historical payments</p>
+                            <p className='font-medium pt-2 '>We provide instant</p>
+                            <p className='font-medium pt-2 '>access to your</p>
+                            <p className='font-medium pt-2 '>historical payments</p>
                         </div>
 
                         <div className='mx-2 md:mx-0'>
                             <p className='font-medium text-3xl pt-16 text-[#04BD4B]'>Safe & Secure</p>
-                            <p className='font-medium text-xl pt-2 '>The protection of</p>
-                            <p className='font-medium text-xl pt-2 '>customer data </p>
-                            <p className='font-medium text-xl pt-2 '>is a priority for us</p>
+                            <p className='font-medium pt-2 '>The protection of</p>
+                            <p className='font-medium pt-2 '>customer data </p>
+                            <p className='font-medium pt-2 '>is a priority for us</p>
                         </div>
 
                         {/* <div className='mx-2 md:mx-0'>
