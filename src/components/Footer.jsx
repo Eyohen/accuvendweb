@@ -1,4 +1,5 @@
 import Logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -11,21 +12,37 @@ const Footer = () => {
                 <div className='flex flex-col lg:flex-row justify-between gap-6 lg:text-left'>
                     <div className='mb-8 lg:mb-0'>
                         <p className='font-medium text-2xl text-white'>COMPANY</p>
-                        <div className="space-y-2 mt-1">
-                            <p className='font-medium text-xl text-white '>About</p>
-                            <p className='font-medium text-xl text-white '>Features</p>
-                            <p className='font-medium text-xl text-white '>Works</p>
-                            <p className='font-medium text-xl text-white '>Career</p>
+                        <div className="space-y-2">
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/about">About Us</Link>
+                            </p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/contact">Contact Us</Link>
+                            </p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/works">Works</Link>
+                            </p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/career">Career</Link>
+                            </p>
                         </div>
                     </div>
 
                     <div className='mb-8 lg:mb-0'>
-                        <div className="space-y-2 mt-1">
+                        <div className="space-y-2">
                             <p className='font-medium text-2xl text-white'>HELP</p>
-                            <p className='font-medium text-xl text-white '>Customer Support</p>
-                            <p className='font-medium text-xl text-white '>Delivery details</p>
-                            <p className='font-medium text-xl text-white '>Terms & Conditions</p>
-                            <p className='font-medium text-xl text-white '>Privacy Policy</p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/customer-support">Customer Support</Link>
+                            </p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/delivery">Delivery details</Link>
+                            </p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/terms">Terms & Conditions</Link>
+                            </p>
+                            <p className='font-medium text-xl text-white '>
+                                <Link to="/privacy">Privacy Policy</Link>
+                            </p>
                         </div>
                     </div>
 
