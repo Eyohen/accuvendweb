@@ -27,11 +27,11 @@
     src: url("./fonts/PayPalSansBigRegular/PayPalSansBigRegular.ttf");
 }
 body {
-    font-family: "Paypal Sans Big Light Regular", sans-serif;
+    font-family: "Paypal Sans Big Regular", sans-serif;
 }
 
 h1 {
-    font-family: pp-sans-big-light, Helvetica Neue, Arial, sans-serif;
+    font-family: 'Paypal Sans Big Regular', Helvetica Neue, Arial, sans-serif;
     font-weight: 400;
     /* line-height: 1.25rem; */
     font-size: 54px;

@@ -20,8 +20,8 @@ function About() {
                 </div>
             </div>
 
-            {/* provide */}
-            <div className="mt-10 flex flex-col space-y-8 pb-14 md:w-4/6 mx-auto px-5 md:px-0">
+            {/* who we are */}
+            <div className="flex flex-col space-y-8 md:w-4/6 mx-auto px-5 py-20 md:px-0">
                 <div className='flex items-start gap-10'>
                     <svg width={110} height={76} className="-mt-2" viewBox="0 0 100 76" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M90 56.75C88.1333 56.75 86.6667 55.375 86.6667 53.625C86.6667 51.875 88.1333 50.5 90 50.5C91.8667 50.5 93.3333 49.125 93.3333 47.375C93.3333 43.231 91.5774 39.2567 88.4518 36.3265C85.3262 33.3962 81.0869 31.75 76.6667 31.75H70C68.1333 31.75 66.6667 30.375 66.6667 28.625C66.6667 26.875 68.1333 25.5 70 25.5C75.5333 25.5 80 21.3125 80 16.125C80 10.9375 75.5333 6.75 70 6.75C68.1333 6.75 66.6667 5.375 66.6667 3.625C66.6667 1.875 68.1333 0.5 70 0.5C74.4203 0.5 78.6595 2.1462 81.7851 5.07646C84.9107 8.00671 86.6667 11.981 86.6667 16.125C86.6667 20 85.2 23.5 82.6667 26.25C92.6 28.75 100 37.25 100 47.375C100 52.5625 95.5333 56.75 90 56.75ZM10 56.75C4.46667 56.75 0 52.5625 0 47.375C0 37.25 7.33333 28.75 17.3333 26.25C14.8667 23.5 13.3333 20 13.3333 16.125C13.3333 11.981 15.0893 8.00671 18.2149 5.07646C21.3405 2.1462 25.5797 0.5 30 0.5C31.8667 0.5 33.3333 1.875 33.3333 3.625C33.3333 5.375 31.8667 6.75 30 6.75C24.4667 6.75 20 10.9375 20 16.125C20 21.3125 24.4667 25.5 30 25.5C31.8667 25.5 33.3333 26.875 33.3333 28.625C33.3333 30.375 31.8667 31.75 30 31.75H23.3333C18.9131 31.75 14.6738 33.3962 11.5482 36.3265C8.42261 39.2567 6.66667 43.231 6.66667 47.375C6.66667 49.125 8.13333 50.5 10 50.5C11.8667 50.5 13.3333 51.875 13.3333 53.625C13.3333 55.375 11.8667 56.75 10 56.75ZM70 75.5H30C24.4667 75.5 20 71.3125 20 66.125V59.875C20 47.8125 30.4667 38 43.3333 38H56.6667C69.5333 38 80 47.8125 80 59.875V66.125C80 71.3125 75.5333 75.5 70 75.5ZM43.3333 44.25C38.9131 44.25 34.6738 45.8962 31.5482 48.8265C28.4226 51.7567 26.6667 55.731 26.6667 59.875V66.125C26.6667 67.875 28.1333 69.25 30 69.25H70C71.8667 69.25 73.3333 67.875 73.3333 66.125V59.875C73.3333 55.731 71.5774 51.7567 68.4518 48.8265C65.3262 45.8962 61.0869 44.25 56.6667 44.25H43.3333Z" fill="#04BD4B" style={{ fill: 'color(display-p3 0.0157 0.7412 0.2941)', fillOpacity: 1 }} />
@@ -57,9 +57,9 @@ function About() {
             </div>
 
             {/* mission */}
-            <div className='bg-[#002E87] pb-24 px-5 md:px-0'>
+            <div className='bg-[#002E87] px-5 md:px-0 py-20'>
                 <div className="md:w-4/6 mx-auto ">
-                    <h1 className='text-[30px] font-big text-white pt-28 text-center'>Our Mission And Vision</h1>
+                    <h1 className='text-[30px] font-big text-white text-center'>Our Mission And Vision</h1>
                     <div className='flex flex-col mt-8 space-y-10'>
                         <div className=''>
                             <p className='text-3xl text-[#04BD4B] '>Our Mission</p>
@@ -74,10 +74,10 @@ function About() {
             </div>
 
             {/* drives */}
-            <div className='bg-gray-200 pb-24 px-5 md:px-0'>
+            <div className='bg-gray-200 px-5 py-20 md:px-0'>
                 <div className="md:w-4/6 mx-auto ">
-                    <h1 className='text-[30px] font-big text-[#002E87] text-center pt-24 px-4 md:px-0'>What Drives us as a company</h1>
-                    <div className='flex flex-col space-y-8 pt-10'>
+                    <h1 className='text-[30px] font-big text-[#002E87] text-center px-4 md:px-0 mb-10'>What Drives us as a company</h1>
+                    <div className='flex flex-col space-y-8'>
                         <div className=''>
                             <p className='text-3xl text-[#04BD4B] '>Customer-centricity</p>
                             <p className=''>We prioritize our client's needs and continuously seek to enhance their experience by providing user-friendly, customer-centric solutions.</p>

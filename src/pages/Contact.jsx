@@ -10,7 +10,15 @@ function Contact() {
         <>
             <div >
                 <Navbar />
-                <div className="relative h-96 sm:h-80 md:h-96 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: `url(${customercare})` }}></div>
+                <div className="relative h-96 sm:h-80 md:h-96 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: `url(${customercare})` }}>
+                    {/* Dark overlay */}
+                    <div className="absolute inset-0 bg-black opacity-60"></div>
+
+                    {/* Text content */}
+                    <div className="text-center text-white relative z-10">
+                        <p className='text-4xl lg:text-5xl'>Get in touch</p>
+                    </div>
+                </div>
                 <SecondScreen />
                 <Footer />
 

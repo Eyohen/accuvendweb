@@ -7,7 +7,7 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                paypal: ["PayPal Sans Big Light Regular", "sans-serif"],
+                // paypal: ["PayPal Sans Big Light Regular", "sans-serif"],
                 big: ["PayPal Sans Big Regular", "sans-serif"],
             },
             fontSize: {

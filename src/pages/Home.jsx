@@ -8,27 +8,27 @@ function Home() {
         <div>
             <Navbar />
                 {/* hero section */}
-                <div className="relative h-96 sm:h-80 md:h-96 bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: `url(${Banner})` }}>
+                <div className="relative h-96 sm:h-80 md:h-96 bg-cover bg-center flex flex-col items-center justify-center" style={{ backgroundImage: `url(${Banner})` }}>
                     {/* Dark overlay */}
                     <div className="absolute inset-0 bg-black opacity-60"></div>
 
                     {/* Text content */}
                     <div className="text-center text-white relative z-10">
-                        <h1 className='text-4xl lg:text-5xl mb-4 md:mb-6'>
-                            Manage Your Utility <br /> Bills with Ease!
+                        <h1 className='text-4xl lg:text-5xl mb-2'>
+                            Manage Your Utility Bills with Ease!
                         </h1>
-                        <p className='text-xl lg:text-3xl mb-4 md:mb-6'>
-                            Welcome to Accuvend <br /> Online Bill Management <br />Portal
+                        <p className='lg:text-xl'>
+                            Welcome to Accuvend Online Bill ManagementPortal
                         </p>
                     </div>
                 </div>
 
                 {/* provide */}
-                <div className='px-2 md:px-0'>
-                    <h1 className='text-[30px] pt-16 md:pt-20 text-center font-big'>We provide efficient services that make <br />
+                <div className='px-2 md:px-0 py-20'>
+                    <h1 className='text-[30px] text-center font-big'>We provide efficient services that make <br />
                         paying for electricity easier.</h1>
 
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 justify-center px-4 md:px-24 pt-[20px] pb-[100px] text-center'>
+                    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 justify-center px-4 md:px-24  text-center'>
                         <div className='mx-2 md:mx-0'>
                             <p className='font-medium text-3xl pt-16 text-[#04BD4B]'>100% Reliable</p>
                             <p className='font-medium pt-2 '>We ensure that your</p>
@@ -60,8 +60,8 @@ function Home() {
                 </div>
 
                 {/* steps */}
-                <div className='bg-gray-200 pb-12'>
-                    <p className='text-[40px] font-paypal pt-20 pb-10 text-center'>Steps to <span className='text-[#04BD4B]'>Purchase</span> Electricity</p>
+                <div className='bg-gray-200 py-20'>
+                    <p className='text-[40px] pb-10 text-center'>Steps to <span className='text-[#04BD4B]'>Purchase</span> Electricity</p>
                     <div className="flex items-center px-4 container justify-center gap-8 mx-auto">
                         <div className="flex flex-col items-center">
                             <svg className="w-[100px] h-[200px] md:w-[180px] md:h-[240px]" viewBox="0 0 236 227" fill="none" xmlns="http://www.w3.org/2000/svg">
