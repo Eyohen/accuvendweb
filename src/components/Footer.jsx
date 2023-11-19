@@ -19,7 +19,7 @@ const Footer = () => {
                             <Link to="/terms">Terms & Conditions</Link>
                         </p>
                         <p className='font-medium text-xl text-white '>
-                            <Link to="/policy">Privacy Policy</Link>
+                            <Link to="/privacy">Privacy Policy</Link>
                         </p>
                     </div>
                 </div>
