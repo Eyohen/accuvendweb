@@ -20,29 +20,29 @@ const Navbar = () => {
 
                 <ul className="md:flex md:items-center space-x-4 hidden">
                     <li>
-                        <Link to='/' className="text-xl hover:text-[#002E87] duration-500 font-medium">Home</Link>
+                        <Link to='/' className="hover:text-white hover:bg-[#002E87] px-3 py-3 rounded-full text-xl duration-500 font-medium">Home</Link>
                     </li>
                     <li>
-                        <Link to='/about' className="text-xl hover:text-[#002E87] duration-500 font-medium">About Us</Link>
+                        <Link to='/about' className="hover:text-white hover:bg-[#002E87] px-3 py-3 rounded-full text-xl duration-500 font-medium">About</Link>
                     </li>
                     <li>
-                        <Link to='/contact' className="text-xl hover:text-[#002E87] duration-500 font-medium">Contact Us</Link>
+                        <Link to='/contact' className="hover:text-white hover:bg-[#002E87] px-3 py-3 rounded-full text-xl duration-500 font-medium">Contact</Link>
                     </li>
                 </ul>
             </nav>
             {mobileNavOpen && (
                 <nav className="bg-white flex-col space-y-2 w-full z-20 px-8 pt-2 pb-4 md:hidden">
                     <hr />
-                    <div>
-                        <Link to='/' className="text-xl hover:text-[#002E87] duration-500 font-medium">Home</Link>
+                    <div className='hover:text-white hover:bg-[#002E87] px-4 py-2 transition-colors duration-0 rounded-lg'>
+                        <Link to='/' className="text-xl duration-500 font-medium">Home</Link>
                     </div>
                     <hr />
-                    <div>
-                        <Link to='/about' className="text-xl hover:text-[#002E87] duration-500 font-medium">About Us</Link>
+                    <div className='hover:text-white hover:bg-[#002E87] px-4 py-2 transition-colors duration-0 rounded-lg'>
+                        <Link to='/about' className="text-xl duration-500 font-medium">About</Link>
                     </div>
                     <hr />
-                    <div>
-                        <Link to='/contact' className="text-xl hover:text-[#002E87] duration-500 font-medium">Contact Us</Link>
+                    <div className='hover:text-white hover:bg-[#002E87] px-4 py-2 transition-colors duration-0 rounded-lg'>
+                        <Link to='/contact' className="text-xl duration-500 font-medium">Contact</Link>
                     </div>
                     <hr />
                 </nav>

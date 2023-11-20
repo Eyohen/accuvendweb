@@ -8,15 +8,15 @@ const Privacy = () => {
         <>
             <Navbar />
             {/* hero section */}
-            <h1 className="bg-[#002E87] text-white font-paypal text-center text-[30px] py-5">Privacy Policy</h1>
+            <h1 className="bg-[#002E87] text-white  text-center text-[30px] py-5">Privacy Policy</h1>
 
             {/* main content */}
             <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row my-20 gap-2">
                 {/* table of contents */}
                 <div className="w-full md:w-[30%]">
                     <p>Last Modified: November 2023</p>
-                    <h1 className="text-[30px] font-paypal mb-4">Table of Contents</h1>
-                    <ol className="text-[#002E87] text-lg font-paypal space-y-2">
+                    <h1 className="text-[30px]  mb-4">Table of Contents</h1>
+                    <ol className="text-[#002E87] text-lg  space-y-2">
                         <li className="capitalize ">
                             <Link to="#infomation">1. Information we collect</Link>
                         </li>
@@ -50,7 +50,7 @@ const Privacy = () => {
                 {/* right side */}
                 <div className="w-full md:w-[70%] mt-10 md:mt-0 space-y-10">
                     <div className="md:mt-4">
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">Information we collect:</h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">Information we collect:</h2>
                         <div>
                             <p>
                                 We may collect the following types of personal information from customers to improve purposes to provide and improve our Services.
@@ -65,7 +65,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">How We Use Your Information:</h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">How We Use Your Information:</h2>
                         <div>
                             <p>
                                 The Company uses the collected information for the following purposes:
@@ -81,7 +81,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">How We Use Your Information:</h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">How We Use Your Information:</h2>
                         <div>
                             <p>
                                 Information Sharing: The Company does not sell, trade, or otherwise transfer customers'
@@ -91,7 +91,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">Security Measures: </h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">Security Measures: </h2>
                         <div>
                             <p>
                                 The Company employs industry-standard security measures to protect customers'
@@ -102,7 +102,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">Cookies and Tracking Technologies: </h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">Cookies and Tracking Technologies: </h2>
                         <div>
                             <p>
                                 The Company may use cookies and similar tracking technologies
@@ -113,7 +113,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">Third-Party Links: </h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">Third-Party Links: </h2>
                         <div>
                             <p>
                                 The Company's website may contain links to third-party websites.
@@ -123,7 +123,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">Changes to the Privacy Policy: </h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">Changes to the Privacy Policy: </h2>
                         <div>
                             <p>
                                 The Company reserves the right to update this privacy policy at any time. Customers will be notified of significant changes.
@@ -132,7 +132,7 @@ const Privacy = () => {
                     </div>
 
                     <div>
-                        <h2 className="text-[#002E87] font-paypal font-bold text-[18px]">Contact Information: </h2>
+                        <h2 className="text-[#002E87]  font-bold text-[18px]">Contact Information: </h2>
                         <div>
                             <p>
                                 For questions or concerns regarding this privacy policy, customers can contact us at <a href="mailto:info@accuvend.com" className="text-[#002E87] font-bold">info@accuvend.com</a>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className='bg-[#002E87] pt-16'>
+        <div className='bg-[#002E87] pt-20'>
             <div className='flex flex-col lg:flex-row justify-between gap-6 xl:gap-0 lg:items-start px-4 md:px-0 md:w-4/6 mx-auto'>
                 <div className=''>
                     <img src={Logo} alt="Logo" className='w-32' />
@@ -12,28 +12,28 @@ const Footer = () => {
                 <div className='-mt-2'>
                     <p className='font-medium text-2xl text-white'>COMPANY</p>
                     <div className="space-y-2">
-                        <p className='font-medium text-xl text-white '>
+                        <p className='text-white '>
                             <Link to="/about">About</Link>
                         </p>
-                        <p className='font-medium text-xl text-white '>
+                        <p className='text-white '>
                             <Link to="/terms">Terms & Conditions</Link>
                         </p>
-                        <p className='font-medium text-xl text-white '>
+                        <p className='text-white '>
                             <Link to="/privacy">Privacy Policy</Link>
                         </p>
                     </div>
                 </div>
 
                 <div className='-mt-2'>
+                    <p className='font-medium text-2xl text-white'>CONTACT</p>
                     <div className="space-y-2">
-                        <p className='font-medium text-2xl text-white'>CONTACT</p>
-                        <p className='font-medium text-xl text-white '>
+                        <p className='text-white '>
                             Phone: 081 000 9985
                         </p>
-                        <p className='font-medium text-xl text-white '>
+                        <p className='text-white '>
                             Email: support@accuvend.ng
                         </p>
-                        <p className='font-medium text-xl text-white flex items-center gap-2'>
+                        <p className='text-white flex items-center gap-2'>
                             Social: <div className="flex items-center gap-2">
                                 <svg width={20} height={20} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect x="0.5" y="0.5" width={39} height={39} rx="19.5" stroke="#F0F0F0" style={{ stroke: 'color(display-p3 0.9427 0.9427 0.9427)', strokeOpacity: 1 }} />
