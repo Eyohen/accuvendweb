@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <div className='-mt-2'>
                     <div className="space-y-2">
-                        <p className='font-medium text-2xl text-white'>CONTACT US</p>
+                        <p className='font-medium text-2xl text-white'>CONTACT</p>
                         <p className='font-medium text-xl text-white '>
                             Phone: 081 000 9985
                         </p>
