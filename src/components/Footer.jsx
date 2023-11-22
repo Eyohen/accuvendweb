@@ -1,4 +1,4 @@
-import Logo from "../images/logo.png";
+import Logo from "../images/logo-white.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -54,18 +54,12 @@ const Footer = () => {
                                     <rect x="0.5" y="0.5" width={39} height={39} rx="19.5" stroke="#F0F0F0" style={{ stroke: 'color(display-p3 0.9427 0.9427 0.9427)', strokeOpacity: 1 }} />
                                     <path d="M13 14.6263C13 14.1549 13.165 13.766 13.4949 13.4596C13.8249 13.1532 14.2539 13 14.7818 13C15.3003 13 15.7199 13.1508 16.0404 13.4525C16.3704 13.7636 16.5354 14.169 16.5354 14.6687C16.5354 15.1212 16.3751 15.4983 16.0545 15.8C15.7246 16.1111 15.2909 16.2667 14.7535 16.2667H14.7394C14.2209 16.2667 13.8014 16.1111 13.4808 15.8C13.1603 15.4889 13 15.0976 13 14.6263ZM13.1838 27V17.5535H16.3232V27H13.1838ZM18.0626 27H21.202V21.7253C21.202 21.3953 21.2397 21.1407 21.3152 20.9616C21.4471 20.6411 21.6475 20.37 21.9162 20.1485C22.1848 19.9269 22.5219 19.8162 22.9273 19.8162C23.9832 19.8162 24.5111 20.5279 24.5111 21.9515V27H27.6505V21.5838C27.6505 20.1885 27.3205 19.1303 26.6606 18.4091C26.0007 17.6879 25.1286 17.3273 24.0444 17.3273C22.8283 17.3273 21.8808 17.8505 21.202 18.897V18.9253H21.1879L21.202 18.897V17.5535H18.0626C18.0815 17.8552 18.0909 18.7933 18.0909 20.3677C18.0909 21.9421 18.0815 24.1529 18.0626 27Z" fill="white" style={{ fill: 'white', fillOpacity: 1 }} />
                                 </svg>
-
-
-
-
                             </div>
                         </p>
                     </div>
                 </div>
             </div>
-
-            <hr className='border-white mt-10 w-3/4 mx-auto' />
-            <p className='text-white text-xl text-center px-3 md:px-0 py-5'>Copyright © 2023 All rights reserved by Accuvend.</p>
+            <p className='mt-10 text-white text-xl text-center px-3 md:px-0 py-5'>Copyright © 2023 All rights reserved by Accuvend.</p>
         </div>
     );
 };

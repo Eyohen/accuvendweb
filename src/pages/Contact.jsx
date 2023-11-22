@@ -16,7 +16,7 @@ function Contact() {
 
                     {/* Text content */}
                     <div className="text-center text-white relative z-10">
-                        <p className='text-4xl lg:text-5xl'>Get in touch</p>
+                        <p className='text-3xl'>Get in touch</p>
                     </div>
                 </div>
                 <SecondScreen />

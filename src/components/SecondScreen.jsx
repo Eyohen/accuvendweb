@@ -65,7 +65,7 @@ const SecondScreen = () => {
 
                                 <div className="ml-4 space-y-1">
                                     <p className="font-bold">Email</p>
-                                    <p className="text-[#002E87]">info@accuvend.com</p>
+                                    <p className="text-[#002E87]">support@accuvend.ng</p>
                                 </div>
                             </div>
                         </div>
