@@ -4,8 +4,6 @@ import Footer from "../components/Footer"
 import aboutpic from '../assets/about.jpeg';
 
 function About() {
-
-
     return (
         <>
             <Navbar />
@@ -16,7 +14,7 @@ function About() {
 
                 {/* Text content */}
                 <div className="text-center text-white relative z-10">
-                    <p className='text-4xl lg:text-5xl'>Powering a Sustainable Future</p>
+                    <p className='text-3xl'>Powering a Sustainable Future</p>
                 </div>
             </div>
 
